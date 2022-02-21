@@ -30,6 +30,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TAPPING_TOGGLE 2
 // #define TAPPING_TERM_PER_KEY
 
+#define MOUSEKEY_DELAY                              300
+#define MOUSEKEY_INTERVAL                           50
+#define MOUSEKEY_MAX_SPEED                          10
+#define MOUSEKEY_TIME_TO_MAX                        20
+#define MOUSEKEY_WHEEL_MAX_SPEED                    8
+#define MOUSEKEY_WHEEL_MAX_TIME_TO_MAX              40
+
 #undef USE_I2C
 #undef SSD1306OLED
 #define USE_SERIAL_PD2
